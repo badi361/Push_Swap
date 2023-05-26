@@ -19,24 +19,24 @@ To do this you have the following operations at your disposal:
 
 Command	Description
 
-SA	swap a -- swap the first 2 elements at the top of stack a. Do nothing if there is only one or no elements).
+SA	(swap a) -- swap the first 2 elements at the top of stack a. Do nothing if there is only one or no elements).
 
-SB	swap b -- swap the first 2 elements at the top of stack b. Do nothing if there is only one or no elements).
+SB	(swap b) -- swap the first 2 elements at the top of stack b. Do nothing if there is only one or no elements).
 
 SS	sa and sb at the same time.
 
-PA	push a -- take the first element at the top of b and put it at the top of a. Do nothing if b is empty.
+PA	(push a) -- take the first element at the top of b and put it at the top of a. Do nothing if b is empty.
 
-PB	push b -- take the first element at the top of a and put it at the top of b. Do nothing if a is empty.
+PB	(push b) -- take the first element at the top of a and put it at the top of b. Do nothing if a is empty.
 
-RA	rotate a -- shift up all elements of stack a by 1. The first element becomes the last one.
+RA	(rotate a) -- shift up all elements of stack a by 1. The first element becomes the last one.
 
-RB	rotate b -- shift up all elements of stack b by 1. The first element becomes the last one.
+RB	(rotate b) -- shift up all elements of stack b by 1. The first element becomes the last one.
 
 RR	ra and rb at the same time.
 
-RRA	reverse rotate a -- shift down all elements of stack a by 1. The flast element becomes the first one.
+RRA	(reverse rotate a) -- shift down all elements of stack a by 1. The flast element becomes the first one.
 
-RRB	reverse rotate b -- shift down all elements of stack b by 1. The flast element becomes the first one.
+RRB	(reverse rotate b) -- shift down all elements of stack b by 1. The flast element becomes the first one.
 
 RRR	rra and rrb at the same time.
